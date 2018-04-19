@@ -16,11 +16,14 @@ class meeting:
 class meetings:
 
 	def __init__(self):
-		self.meetings = []
+		self.meetings = {}
 
-	def add_meeting(self, meetings):
-		self.meetings.append(meeting)
+	def add_meeting(self, meeting):
+		self.meetings.[str(meeting)] = meeting
 
-	def remove_meeting(self,meetings):
-		self.meetings.remove(meeting)
+	def remove_meeting(self,meeting):
+		del self.meetings.[str(meeting)]
+
+	def list_meetings(self,meeting):
+		list(self.meetings.keys())
 
