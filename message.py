@@ -7,7 +7,7 @@ class meeting:
 		self.mname = mname
 		self.location = location
 		self.topic = topic
-		self.email = email
+		self.email = [email]
 		self.etime = etime
 
 	def add_email(self, email):
