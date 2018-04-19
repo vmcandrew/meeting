@@ -13,3 +13,10 @@ class meeting:
 	def add_email(self, email):
 		self.email.append(email)
 
+class meetings:
+
+	def __init__(self):
+		self.meetings = []
+
+	def add_meeting(self, meeting):
+		self.meetings.append(meeting)
