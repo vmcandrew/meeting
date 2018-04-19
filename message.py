@@ -18,9 +18,9 @@ class meetings:
 	def __init__(self):
 		self.meetings = []
 
-	def add_meeting(self, meeting):
+	def add_meeting(self, meetings):
 		self.meetings.append(meeting)
 
-	def remove_meeting(self,meeting):
+	def remove_meeting(self,meetings):
 		self.meetings.remove(meeting)
 
