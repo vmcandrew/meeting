@@ -20,3 +20,7 @@ class meetings:
 
 	def add_meeting(self, meeting):
 		self.meetings.append(meeting)
+
+	def remove_meeting(self,meeting):
+		self.meetings.remove(meeting)
+
