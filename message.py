@@ -24,6 +24,6 @@ class meetings:
 	def remove_meeting(self,meeting):
 		del self.meetings[str(meeting)]
 
-	def list_meetings(self,meeting):
-		list(self.meetings.keys())
+	def list_meetings(self):
+		print(list(self.meetings.keys()))
 
